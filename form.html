@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <title>Jedidiah Aremu</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <form action="results.html" method="get">
+            <h1>Which Polytopia tribe are you in?</h1>
+            <p>In The Battle of Polytopia, the square is composed of different tribes vying for supremacy, each with different ways of life. Answer these questions to find out which tribe you'd fit in with.</p>
+
+            <div>
+                <label for="fname">What is your name?</label> 
+                <input type="text" id="fname" name="fname" required>    
+            </div>
+            
+            <div>
+                <p>Which season is your favorite?</p>
+
+                <input type="radio" id="summer" name="seasons" value="summer"  required>
+                <label for="summer">Summer<br></label>
+
+                <input type="radio" id="autumn" name="seasons" value="autumn">
+                <label for="autumn">Autumn<br></label>
+
+                <input type="radio" id="winter" name="seasons" value="winter">
+                <label for="winter">Winter<br></label>
+
+                <input type="radio" id="spring" name="seasons" value="spring">
+                <label for="spring">Spring<br></label>
+
+                <input type="radio" id="ind" name="seasons" value="ind">
+                <label for="ind">I'm indifferent</label>
+            </div>
+
+            <div>
+                <p>What food sounds good right now?</p>
+
+                <input type="radio" id="fish" name="foods" value="fish"  required>
+                <label for="fish">Grilled Salmon<br></label>
+
+                <input type="radio" id="pork" name="foods" value="pork">
+                <label for="pork">BBQ Pork Ribs<br></label>
+
+                <input type="radio" id="beef" name="foods" value="beef">
+                <label for="beef">Beef+mushroom Stir Fry<br></label>
+
+                <input type="radio" id="salad" name="foods" value="salad">
+                <label for="salad">Your Favorite Salad<br></label>
+
+                <input type="radio" id="cream" name="foods" value="cream">
+                <label for="cream">Ice Cream<br></label>
+
+                <input type="radio" id="steak" name="foods" value="steak">
+                <label for="steak">Ribeye Steak<br></label>
+
+                <input type="radio" id="none" name="foods" value="none">
+                <label for="none">I'm not hungry</label>
+
+
+
+            </div>
+
+            
+            <div>
+                <p>Which superpower would you want to have?</p>
+
+                <input type="radio" id="anima" name="super" value="anima"  required> 
+                <label for="anima">Talk to animals<br></label>
+
+                <input type="radio" id="ice" name="super" value="ice">
+                <label for="ice">Conjure/manipulate ice<br></label>
+
+                <input type="radio" id="mind" name="super" value="mind">
+                <label for="mind">Mind control<br></label>
+
+                <input type="radio" id="str" name="super" value="str">
+                <label for="str">Super strength and durability<br></label>
+
+                <input type="radio" id="money" name="super" value="money">
+                <label for="money">Unlimited money<br></label>
+
+                <input type="radio" id="aim" name="super" value="aim">
+                <label for="aim">Aimbot with all projectiles<br></label>
+
+                <input type="radio" id="water" name="super" value="water">
+                <label for="water">Breathe underwater+enhanced swimming</label>
+
+            </div>
+
+            <div>
+                <p>Which colors do you like?</p>
+
+                <input type="checkbox" id="pink" name="colors" value="pink">
+                <label for="pink">Pink<br></label>
+
+                <input type="checkbox" id="white" name="colors" value="white">
+                <label for="white">White<br></label>
+
+                <input type="checkbox" id="turq" name="colors" value="turq">
+                <label for="turq">Turquoise<br></label>
+
+                <input type="checkbox" id="black" name="colors" value="black">
+                <label for="black">Black<br></label>
+
+                <input type="checkbox" id="purp" name="colors" value="purp">
+                <label for="purp">Purple<br></label>
+
+                <input type="checkbox" id="carml" name="colors" value="carml">
+                <label for="carml">Caramel<br></label>
+
+                <input type="checkbox" id="green" name="colors" value="green">
+                <label for="green">Green</label>
+            </div>
+            
+            <div>
+                <p>Which month were you born?</p>
+                <select name="month" id="month">
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Which of these occupations would you not mind having</p>
+
+                <input type="checkbox" id="bounce" name="job" value="bounce"> 
+                <label for="bounce">Mercenary<br></label>
+
+                <input type="checkbox" id="fisher" name="job" value="fisher">
+                <label for="fisher">Fisherman<br></label>
+
+                <input type="checkbox" id="monk" name="job" value="monk">
+                <label for="monk">Monk<br></label>
+
+                <input type="checkbox" id="bank" name="job" value="bank">
+                <label for="bank">Merchant<br></label>
+
+                <input type="checkbox" id="wood" name="job" value="wood">
+                <label for="wood">Lumberjack<br></label>
+
+                <input type="checkbox" id="ranger" name="job" value="ranger">
+                <label for="ranger">Forest Ranger<br></label>
+
+                <input type="checkbox" id="snow" name="job" value="snow">
+                <label for="snow">Fur trapper </label>
+            </div>
+
+
+            <div>
+                <p>Which of these places would you like to visit the most?</p>
+
+                <input type="radio" id="eng" name="state" value="eng"  required>
+                <label for="eng">England<br></label>
+
+                <input type="radio" id="fin" name="state" value="fin">
+                <label for="fin">Alaska<br></label>
+
+                <input type="radio" id="hawaii" name="state" value="hawaii">
+                <label for="hawaii">Hawaii<br></label>
+
+                <input type="radio" id="nepal" name="state" value="nepal">
+                <label for="nepal">Nepal<br></label>
+
+                <input type="radio" id="india" name="state" value="india">
+                <label for="india">India<br></label>
+
+                <input type="radio" id="brazil" name="state" value="brazil">
+                <label for="brazil">Brazil<br></label>
+
+                <input type="radio" id="mor" name="state" value="mor">
+                <label for="mor">Mordor</label>
+            </div>
+
+            <div>
+                <p>If you ruled a country and an enemy army invaded, what would you do?</p>
+
+                <input type="radio" id="ani" name="army" value="ani"  required>
+                <label for="ani">Use trained beasts to help fight them such as war elephants<br></label>
+
+                <input type="radio" id="ship" name="army" value="ship">
+                <label for="ship">Bombard the enemy army with cannonfire using your fleet of battleships on the coast<br></label>
+
+                <input type="radio" id="peace" name="army" value="peace">
+                <label for="peace">Convince them to leave peacefully because you have no enemies<br></label>
+
+                <input type="radio" id="infantry" name="army" value="infantry">
+                <label for="infantry">Fight them head-on with your elite infantry army<br></label>
+
+                <input type="radio" id="arrow" name="army" value="arrow">
+                <label for="arrow">Have your elite archers fire volleys of arrows at them<br></label>
+
+                <input type="radio" id="pay" name="army" value="pay">
+                <label for="pay">Use some of the great wealth of your kingdom to pay the invaders to leave<br></label>
+
+                <input type="radio" id="snows" name="army" value="snows">
+                <label for="snows">Retreat into the snowy forests of your country and use guerilla warfare<br></label>
+            </div>
+
+            <div>
+                <input id="submit-btn" type="submit" value="Submit">
+            </div>
+
+        </form>
+    </body>
+</html>
